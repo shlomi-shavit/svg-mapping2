@@ -1,0 +1,24 @@
+{
+  "name": "SVG",
+  "version": "0.1.0",
+  "description": "svg handler",
+  "repository": {
+    "type": "git"
+  },
+  "author": "Asaf Ravona & Shlomi Shavit & Jordan Hury",
+  "scripts": {
+    "start": "node createSprite.js"
+  },
+  "devDependencies": {
+    "spritesh": "1.2.1",
+    "svgo": "1.2.0"
+  },
+  "dependencies": {
+    "args": "^5.0.0",
+    "express": "^4.16.4",
+    "gulp": "^3.9.1",
+    "shelljs": "^0.8.2",
+    "xml2js": "0.4.19",
+    "axios": "0.18.0"
+  }
+}

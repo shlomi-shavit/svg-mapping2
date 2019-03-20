@@ -1,0 +1,67 @@
+
+
+body {
+    margin: 0;
+    background: #717171;
+    padding: 1rem
+}
+.sprite-divs,
+#uploaded-svgs-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+}
+
+.update-download-header {
+    display: flex;
+}
+
+#uploaded-svgs-container {
+    padding-bottom: 0;
+}
+
+.upload-btn {
+    border: solid 1px red;
+    margin-right: 20px;
+}
+
+.upload-btn input:first-child {
+    width: 160px;
+}
+.download-btn {
+    border: solid 1px aqua;
+}
+#icons-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+#svgTxtarea{
+    display: none;
+}
+.svg-item {
+    background: #e2e2e2;
+    border: solid 1px #bfbfbf;
+    display: flex;
+    flex-direction: column;
+    margin: .3rem;
+    align-items:center;
+    box-shadow: 0 0 8px #3c3838;
+}
+.svg-item:hover {
+    border: solid 1px #67e4e0;
+}
+.svg-item:hover span{
+    border-bottom: solid 1px #67e4e0;
+}
+span {
+    font-size: 10px;
+    font-family: sans-serif;
+    border-bottom: solid 1px #e6e6e6;
+    padding: .2rem;
+    text-align: center;
+}
+svg {
+    width: 2.5rem;
+    height: 2.5rem;
+    padding: .2rem;
+}

@@ -1,0 +1,9 @@
+{
+    "svgs": [
+        {
+            "directory": "svgs",
+            "spriteName": "coral.svg",
+            "htmlName": "svg-sprite-index.html"
+        }
+    ]
+}
